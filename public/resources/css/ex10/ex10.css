@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+main{
+    width: 960px;
+    height: 600px;
+    margin: 10px auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color:red;
+    border: 2px solid #fff;
+}
+
