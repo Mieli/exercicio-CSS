@@ -15,10 +15,7 @@ main{
     margin: 10px auto;
     background-color: black;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: nowrap;
 }
 
 .box{

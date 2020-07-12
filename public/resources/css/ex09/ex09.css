@@ -6,7 +6,6 @@
 h1{
     text-align: center;
     margin: 20px;
-    box-sizing: border-box;
 }
 
 main{
@@ -15,10 +14,7 @@ main{
     margin: 10px auto;
     background-color: black;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: nowrap;
+    flex-direction: column; /* coloca o box em coluna um abixo do outro */
 }
 
 .box{

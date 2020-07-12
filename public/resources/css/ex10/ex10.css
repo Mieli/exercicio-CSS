@@ -6,7 +6,6 @@
 h1{
     text-align: center;
     margin: 20px;
-    box-sizing: border-box;
 }
 
 main{
@@ -18,7 +17,6 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
 }
 
 .box{

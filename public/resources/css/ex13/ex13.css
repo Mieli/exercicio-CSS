@@ -7,7 +7,6 @@
 h1{
     text-align: center;
     margin: 20px;
-    box-sizing: border-box;
 }
 
 main{
@@ -15,10 +14,27 @@ main{
     height: 600px;
     margin: 10px auto;
     background-color: black;
+}
+
+.pai1{
     display: flex;
-    justify-content: flex-start ;
     flex-wrap: wrap; 
 }
+.pai2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pai3{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pai4{
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 .box{
     width: 150px;
@@ -27,11 +43,7 @@ main{
     border: 2px solid #fff;
 }
 
-.box:nth-child(5),
-.box:nth-child(9),
-.box:nth-child(10){
-    background-color:black;
-}
+
 
 
 

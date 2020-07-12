@@ -7,7 +7,6 @@
 h1{
     text-align: center;
     margin: 20px;
-    box-sizing: border-box;
 }
 
 main{
@@ -16,8 +15,7 @@ main{
     margin: 10px auto;
     background-color: black;
     display: flex;
-    justify-content: flex-start ;
-    flex-wrap: wrap; 
+    flex-wrap: wrap; /* com quebra de linha */
 }
 
 .box{

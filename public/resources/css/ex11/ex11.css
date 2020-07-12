@@ -6,7 +6,6 @@
 h1{
     text-align: center;
     margin: 20px;
-    box-sizing: border-box;
 }
 
 main{
@@ -16,9 +15,6 @@ main{
     background-color: black;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: nowrap;
 }
 
 .box{
@@ -30,6 +26,6 @@ main{
 
 .box:nth-child(2){
     background-color: blueviolet;
-    flex-grow: 1;
+    flex-grow: 1; 
 }
 

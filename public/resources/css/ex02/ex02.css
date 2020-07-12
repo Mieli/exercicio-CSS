@@ -6,7 +6,6 @@
 h1{
     text-align: center;
     margin: 20px;
-    box-sizing: border-box;
 }
 
 main{
@@ -16,8 +15,7 @@ main{
     background-color: black;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-start;
+    justify-content: flex-end; /* alinha os box pela direita */
     flex-wrap: nowrap;
 }
 
